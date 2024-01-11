@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox</title>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <!-- 1st -->
+    <div style="
+      display: flex;
+      flex-direction: row;
+    ">
+      <div style="background-color: lightblue;">div1</div>
+      <div style="background-color: lightcoral;">div2 <p>text</p></div>
+    </div>
+    <!-- 2nd -->
+    <div style="
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightcoral;
+        flex: 1;
+      ">flex 1</div>
+    </div>
+    <!-- 3rd -->
+    <div style="
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightcoral;
+        flex: 1;
+      ">flex 1</div>
+      <div style="
+        background-color: lightblue;
+        flex: 2;
+      ">flex 2</div>
+    </div>
+    <!-- header using Flexbox -->
+    <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightcoral;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+    </div>
+    <!-- header using flexbox & justify-content -->
+    <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightcoral;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+    </div>
+    <!-- vertical align -->
+    <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+    ">
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightcoral;
+        width: 100px;
+      ">100px</div>
+      <div style="
+        background-color: lightblue;
+        width: 100px;
+      ">100px</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+.t1 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 150px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.t1:hover {
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.7) ;
+}
