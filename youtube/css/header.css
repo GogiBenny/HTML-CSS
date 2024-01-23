@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   right: 0;
@@ -103,6 +104,22 @@
 
 .notifications-icon {
   height: 24px;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -5px;
+  right: -3px;
+  background-color: red;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 50%;
 }
 
 .current-user-picture {
